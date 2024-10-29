@@ -44,17 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
   ];
 
-  const graphics = [
-    {
-      title: "Redesign Chess.com platform",
-      description:
-        "This is a competition project for Chess.com, the task of which is to create a new design in accordance with modern trends. It was a great pleasure to realize my creative potential in this contest",
-      descriptionUa:
-        "Це конкурсний проект для Chess.com, завданням якого є створення нового дизайну відповідно до сучасних тенденцій. Мені було дуже приємно реалізувати свій творчий потенціал у цьому конкурсі",
-      image: "/imgs/chessimg.jpg",
-      url: "https://www.behance.net/gallery/118562443/Redesign-Chesscom-platform",
-    },
-  ];
+  const graphics = [];
 
   let currentCategory = websites;
   let currentWorkIndex = 0;
