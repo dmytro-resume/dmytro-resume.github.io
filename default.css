@@ -1,0 +1,100 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+p,
+h2,
+h1,
+h3 {
+  font-family: "helvetica", sans-serif;
+  font-weight: 400;
+}
+
+nav[class],
+ul[class],
+ol[class],
+li[class],
+button,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  font-family: "helvetica", sans-serif;
+}
+
+nav[class],
+ul[class],
+ol[class],
+li[class] {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  margin: 0;
+}
+
+a:not([class]) {
+  /* все которые не является классом */
+  text-decoration-skip-ink: auto;
+}
+
+a:active, /* активная/посещенная ссылка */
+a:hover,  /* при наведении */
+a {
+  font-family: "helvetica", sans-serif;
+  outline: none;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+input[type="search"] {
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0;
+}
+
+input {
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+::placeholder {
+  color: #c7cfd5;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

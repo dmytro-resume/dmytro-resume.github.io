@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "helvetica";
+  src: url(../Helvetica/HelveticaRegular/HelveticaRegular.ttf)
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "helvetica";
+  src: url(../Helvetica/HelveticaMedium/HelveticaMedium.ttf) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}

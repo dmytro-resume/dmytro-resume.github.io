@@ -1,0 +1,154 @@
+@media screen and (max-width: 1024px) {
+  .top_grid_container {
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr 1fr;
+    padding: 0 40px;
+  }
+
+  #tittle {
+    grid-column: 1/4;
+    grid-row: 2/-2;
+  }
+
+  .my_photo,
+  .photo_portfolio {
+    height: 60vh;
+  }
+
+  .my_photo:hover a,
+  .photo_portfolio:hover a {
+    background-color: initial;
+  }
+
+  .my_photo::before,
+  .photo_portfolio::before {
+    display: none;
+  }
+
+  .mid_grid_container {
+    display: grid;
+    grid-template: 0.2fr 0.4fr 40px 1fr / 1fr 1fr;
+    row-gap: 20px;
+    padding: 0 40px;
+  }
+
+  #tittle_two {
+    grid-column: 1/-1;
+    grid-row: 1;
+    margin-right: 40px;
+    margin-bottom: 0;
+  }
+
+  .block_cont_about_me {
+    grid-column: 1/-1;
+    grid-row: 2;
+    padding-left: 0;
+    padding-bottom: 20px;
+    margin-top: 0;
+  }
+
+  .block_cont_about_me::before {
+    display: none;
+  }
+
+  .text_index_two {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .block_cont_what_I_do {
+    grid-column: 1/-1;
+    grid-row: 4;
+  }
+
+  .btns_container {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .active:nth-child(4)::after {
+    width: 50%;
+  }
+
+  .photo_portfolio a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .filter_portfolio_cont {
+    padding: 20px 40px;
+  }
+
+  #work_descript {
+    width: 40%;
+  }
+
+  .key_skill_container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40px 0.9fr 1fr;
+    grid-row-gap: 40px;
+    column-gap: 20px;
+    padding: 20px 40px;
+  }
+
+  .text_index_two:nth-child(1) {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  #sk1 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  #sk2 {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  #sk3 {
+    grid-column: 3;
+    grid-row: 2;
+  }
+
+  #sk4 {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  #sk5 {
+    grid-column: 2;
+    grid-row: 3;
+  }
+
+  #final_phrase {
+    grid-column: 3;
+    grid-row: 3;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    margin: 10px 0;
+  }
+
+  .footer_block {
+    padding: 20px 40px 20px 40px;
+  }
+
+  #my_email {
+    font-size: 62px;
+    width: 82%;
+  }
+
+  hr {
+    grid-row: 3;
+    transform: translateY(-20px);
+  }
+
+  hr.last {
+    grid-column: 1/-1;
+  }
+}
