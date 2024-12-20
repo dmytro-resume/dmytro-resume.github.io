@@ -1,0 +1,140 @@
+@import "./node_modules/sal.js/dist/sal.css";
+
+.menu {
+  padding: 0 60px;
+}
+
+.menu:last-child {
+  padding: 0 0;
+}
+
+.listNav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main_block_cont {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  column-gap: 80px;
+}
+
+.my_biography {
+  margin-top: 40px;
+  width: 42%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  row-gap: 20px;
+  max-height: 740px;
+  overflow: hidden;
+  position: relative;
+}
+
+.my_biography_text_container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  row-gap: 20px;
+}
+
+.my_biography_text_container {
+  overflow-y: auto;
+  max-height: calc(100% - 80px);
+  padding-right: 20px; /* Для скроллбара */
+}
+
+.my_biography_text_container::-webkit-scrollbar {
+  width: 4px;
+}
+
+.my_biography_text_container::-webkit-scrollbar-thumb {
+  background-color: #dddddd;
+  border-radius: 4px;
+}
+
+.my_biography_text_container::-webkit-scrollbar-thumb:hover {
+  background-color: #909090;
+}
+
+.icons_cont_t {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: end;
+}
+
+.key_skill_container {
+  display: grid;
+  grid-template: 0.9fr 1fr / 20% 1fr 1fr 1fr;
+  row-gap: 80px;
+  column-gap: 40px;
+  padding: 40px 60px;
+}
+
+.skills_descript_cont {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-right: 40px;
+}
+
+#sk1 {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+#sk2 {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+#sk3 {
+  grid-column: 4;
+  grid-row: 1;
+}
+
+#sk4 {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+#sk5 {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+#sk6 {
+  grid-column: 4;
+  grid-row: 2;
+}
+
+.footer_container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer_tittle_cont {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
