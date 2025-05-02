@@ -213,8 +213,8 @@ const langArray = {
   //translate about me page
 
   "my-biography-text": {
-    en: "I am 35 years old, a happy husband and father with a loving wife and an 11-year-old son. My life is vibrant and diverse. My professional journey began in the field of MLM marketing. I worked with “cold” contacts, engaged in direct sales, and built a team of over 100 partners. Later, together with mentors, we established a business school to train new partners. This experience became a crucial step in developing my communication, organizational, and leadership skills.",
-    ua: "Мені 35 років, я щасливий чоловік і батько – у мене є кохана дружина та 11-річний син. Моє життя насичене та різноманітне. Моя професійна історія почалася у сфері МЛМ-маркетингу. Я працював із “холодними” контактами, займався прямими продажами та сформував команду з понад 100 партнерів. Згодом разом із наставниками ми організували бізнес-школу, де навчали нових партнерів. Цей досвід став для мене важливим кроком у розвитку навичок комунікації, організації .",
+    en: "My life is vibrant and diverse. My professional journey began in the field of MLM marketing. I worked with “cold” contacts, engaged in direct sales, and built a team of over 150 partners. Later, together with mentors, we established a business school to train new partners. This experience became a crucial step in developing my communication, organizational, and leadership skills.",
+    ua: "Моя професійна історія почалася у сфері МЛМ-маркетингу. Я працював із “холодними” контактами, займався прямими продажами та сформував команду з понад 150 партнерів. Згодом разом із наставниками ми організували бізнес-школу, де навчали нових партнерів. Цей досвід став для мене важливим кроком у розвитку навичок комунікації, організації .",
   },
 
   "my-biography-text4": {
